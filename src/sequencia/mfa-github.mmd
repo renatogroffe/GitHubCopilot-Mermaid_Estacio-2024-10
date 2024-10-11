@@ -1,0 +1,18 @@
+sequenceDiagram
+    actor Desenvolvedor
+    Desenvolvedor->>+GitHub: Envia credenciais de login (usuário e senha)
+    GitHub->>GitHub: Verifica credenciais
+    alt Credenciais válidas
+        GitHub->>Desenvolvedor: Solicita OTP (One-time password)
+        Autenticador->>Autenticador: Gera OTP
+        Autenticador->>Desenvolvedor: Exibe OTP
+        Desenvolvedor->>+GitHub: Envia OTP
+        GitHub->>GitHub: Verifica OTP
+        alt OTP válido
+            GitHub->>Desenvolvedor: Login bem-sucedido
+        else OTP inválido
+            GitHub->>Desenvolvedor: Falha na autenticação
+        end
+    else Credenciais inválidas
+        GitHub->>Desenvolvedor: Falha na autenticação
+    end
