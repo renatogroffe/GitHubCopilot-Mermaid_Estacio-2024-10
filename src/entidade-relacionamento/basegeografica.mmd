@@ -1,0 +1,22 @@
+erDiagram
+    Regioes {
+        int IdRegiao PK
+        varchar CodRegiao
+        varchar NomeRegiao
+    }
+
+    Estados {
+        char SiglaEstado PK
+        varchar NomeEstado
+        varchar NomeCapital
+        int IdRegiao FK
+    }
+
+    Cidades {
+        int IdCidade PK
+        varchar NomeCidade
+        char SiglaEstado FK
+    }
+
+    Regioes ||--o{ Estados: contains
+    Estados ||--o{ Cidades: contains
