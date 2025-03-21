@@ -3,6 +3,24 @@ Conteúdos da apresentação "GitHub Copilot + Mermaid: simplificando a geraçã
 
 ---
 
+Título da apresentação: **GitHub Copilot + Mermaid: simplificando a geração de documentações com Inteligência Artificial**
+
+Quando: **11/10/2024 (sexta-feira)**
+
+Palestrante: Renato Groffe - **Microsoft MVP, MTAC**
+
+Tipo do evento: **Online**
+
+Ferramenta de transmissão: **Microsoft Teams**
+
+Agradecimentos ao [**Prof. Mauricio Wieler Orellana**](https://www.linkedin.com/in/mauricio-wieler-orellana-3b578013a/) pelo convite e por todo o apoio na realização desta palestra, assim como a outros professores e alunos que estiveram presentes no evento.
+
+Número de participantes: **55 pessoas (pico de audiência ao longo da live)**
+
+Tecnologias e tópicos abordados: **GitHub Copilot, Mermaid, GitHub, Visual Studio Code, Git, SQL, UML, Modelagem de Sistemas, Autenticação Multifator...**
+
+---
+
 ## Diagramas gerados durante a apresentação
 
 ### Diagrama de Entidade-Relacionamento
