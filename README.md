@@ -21,6 +21,14 @@ Tecnologias e tópicos abordados: **GitHub Copilot, Mermaid, GitHub, Visual Stud
 
 ---
 
+![Renato palestrando 1](img/audiencia.png)
+
+![Renato palestrando 2](img/m-02.png)
+
+![Renato palestrando 3](img/m-02.png)
+
+---
+
 ## Diagramas gerados durante a apresentação
 
 ### Diagrama de Entidade-Relacionamento
